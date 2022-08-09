@@ -1,0 +1,53 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>Backend_Icp</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.17" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.13">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.2" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Files\Equipos\Certificado\Certificado-EQUIPO AUTOCLAVE.pdf" />
+    <None Include="wwwroot\Files\Equipos\Licencia\Licencia-Abrasimetro.pdf" />
+    <None Include="wwwroot\Files\Equipos\Manual\Manual-Vascula.pdf" />
+    <None Include="wwwroot\Images\Components\BACTER221629882.jpeg" />
+    <None Include="wwwroot\Images\Components\CABLESDEPU225747032.jpeg" />
+    <None Include="wwwroot\Images\Components\CONDENSADO221414785.jpeg" />
+    <None Include="wwwroot\Images\Components\ESTENSOMET222121691.jpeg" />
+    <None Include="wwwroot\Images\Components\HILO-ESPEC220813978.jpeg" />
+    <None Include="wwwroot\Images\Components\PORTAMUEST225033964.jpeg" />
+    <None Include="wwwroot\Images\Components\TGS-COMPO221245047.jpeg" />
+    <None Include="wwwroot\Images\Components\TUBO221513826.jpeg" />
+    <None Include="wwwroot\Images\Components\WhatsApp-I223112372.jpeg" />
+    <None Include="wwwroot\Images\Components\WhatsApp-I223134550.jpeg" />
+    <None Include="wwwroot\Images\Components\WhatsApp-I223841152.jpeg" />
+    <None Include="wwwroot\Images\Components\WhatsApp-I223933931.jpeg" />
+    <None Include="wwwroot\Images\Components\WhatsApp-I224955224.jpeg" />
+    <None Include="wwwroot\Images\Consumables\PATRONDURE224000509.jpeg" />
+    <None Include="wwwroot\Images\Consumables\PLACA221720216.jpeg" />
+    <None Include="wwwroot\Images\Consumables\WhatsApp-I224428302.jpeg" />
+    <None Include="wwwroot\Images\Equipments\ABRASIMETR220844895.jpeg" />
+    <None Include="wwwroot\Images\Equipments\AUTOCLAVE225948063.jpeg" />
+    <None Include="wwwroot\Images\Equipments\CAMARA-HUM221252664.jpeg" />
+    <None Include="wwwroot\Images\Equipments\ESPECTRO220542077.jpeg" />
+    <None Include="wwwroot\Images\Equipments\ESPECTROME224823166.jpeg" />
+    <None Include="wwwroot\Images\Equipments\humo224531732.png" />
+    <None Include="wwwroot\Images\Equipments\TGA221130052.jpeg" />
+    <None Include="wwwroot\Images\Equipments\WhatsApp-I222456140.jpeg" />
+    <None Include="wwwroot\Images\Equipments\WhatsApp-I222839321.jpeg" />
+    <None Include="wwwroot\Images\Equipments\WhatsApp-I223525120.jpeg" />
+    <None Include="wwwroot\Images\Equipments\WhatsApp-I224302219.jpeg" />
+    <None Include="wwwroot\Images\Instruments\WhatsApp-I224302219.jpeg" />
+  </ItemGroup>
+
+</Project>

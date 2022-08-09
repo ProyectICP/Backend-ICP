@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Este archivo se usa en el proceso de publicación y empaquetado del proyecto web. Para personalizar el comportamiento de este proceso,
+edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 para obtener más información. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword />
+    <_PublishTargetUrl>ftps://waws-prod-yt1-043.ftp.azurewebsites.windows.net/site/wwwroot</_PublishTargetUrl>
+    <History>True|2022-06-15T19:58:53.2796460Z;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="appsettings.Development.json">
+      <publishTime>06/15/2022 14:47:29</publishTime>
+    </File>
+    <File Include="appsettings.json">
+      <publishTime>06/15/2022 14:47:30</publishTime>
+    </File>
+    <File Include="Backend-Icp.deps.json">
+      <publishTime>06/15/2022 14:58:09</publishTime>
+    </File>
+    <File Include="Backend-Icp.dll">
+      <publishTime>06/15/2022 14:58:07</publishTime>
+    </File>
+    <File Include="Backend-Icp.exe">
+      <publishTime>06/15/2022 14:58:07</publishTime>
+    </File>
+    <File Include="Backend-Icp.pdb">
+      <publishTime>06/15/2022 14:58:07</publishTime>
+    </File>
+    <File Include="Backend-Icp.runtimeconfig.json">
+      <publishTime>06/15/2022 14:58:09</publishTime>
+    </File>
+    <File Include="Microsoft.OpenApi.dll">
+      <publishTime>08/29/2020 15:14:12</publishTime>
+    </File>
+    <File Include="Swashbuckle.AspNetCore.Swagger.dll">
+      <publishTime>09/23/2020 07:47:20</publishTime>
+    </File>
+    <File Include="Swashbuckle.AspNetCore.SwaggerGen.dll">
+      <publishTime>09/23/2020 07:47:22</publishTime>
+    </File>
+    <File Include="Swashbuckle.AspNetCore.SwaggerUI.dll">
+      <publishTime>09/23/2020 07:47:24</publishTime>
+    </File>
+    <File Include="web.config">
+      <publishTime>06/15/2022 14:58:20</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
